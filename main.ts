@@ -4,7 +4,7 @@ input.onButtonPressed(Button.A, function () {
     led.plot(xposition, yposition)
 })
 input.onButtonPressed(Button.AB, function () {
-    basic.showString("Super Papa!")
+    basic.showString("Super Fille")
 })
 input.onButtonPressed(Button.B, function () {
     led.unplot(xposition, yposition)
@@ -21,4 +21,4 @@ let xposition = 0
 basic.clearScreen()
 xposition = 0
 yposition = 0
-led.plot(0, 0)
+led.plot(xposition, yposition)
